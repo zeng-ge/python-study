@@ -48,8 +48,8 @@ for tool_call in ai_msg.tool_calls:
     tool_msg = selected_tool.invoke(tool_call)
     messages.append(tool_msg)
 print(messages)
-# result = llmWithTools.invoke(messages)
-# print(result)
+result = llmWithTools.invoke(messages)
+print("--------", result)
 chunks = []
 
 async def execute():

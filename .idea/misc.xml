@@ -3,7 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 (coroutine)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (coroutine)" project-jdk-type="Python SDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (coroutine)" project-jdk-type="Python SDK" />
 </project>

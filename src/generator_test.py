@@ -7,7 +7,7 @@ def fib(max):
     while(max > 0):
         max -= 1
         print("before yield")
-        # 第一次调用next时会执行到yield语名并返回值，再次调用next时才会执行后面的语句
+        # 第一次调用next时会执行到yield语句并返回值，再次调用next时才会执行后面的语句
         # 然后从循环中开始执行直到yield执行并返回时停止
         yield current
         print("after yield")

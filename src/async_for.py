@@ -15,6 +15,7 @@ async def fake_paginated_api_stream(total_pages: int):
 # 一个简单的并发任务，用于证明事件循环在 async for 等待时没有被阻塞
 async def pinger():
     """每0.4秒打印一个点，证明程序还在“活着”"""
+    print("executing pinger")
     while True:
         await asyncio.sleep(0.4)
         print(".", end="", flush=True)

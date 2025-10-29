@@ -50,10 +50,12 @@ unpack_dict(**{"name": "tod", "age": 22})
 
 # python没有块级作用域，可以产生作用域的：函数、类、模块、推导式或生成器表达式
 def scope_test(none: None | str):
-    if None:
+    if none:
         var_test = "none"
+        print("none var_test")
     else:
         var_test = "bbb"
+        print("test var_test")
     print(var_test)
 scope_test(None)
 scope_test("abc")
